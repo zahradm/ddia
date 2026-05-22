@@ -216,3 +216,47 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/bin/
+/pkg/
+*.mod
+*.sum
+go.work
+go.work.sum
+
+# Compiled files (both)
+*.pyc
+*.pyo
+*.o
+*.a
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+.project
+.classpath
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS generated
+Thumbs.db
+desktop.ini
+
